@@ -1,0 +1,26 @@
+.editor-v2{grid-template-columns:284px 1fr 320px}
+.page-navigator-v2{display:flex;flex-direction:column;overflow:hidden;padding:14px 12px}
+.page-nav-heading{display:flex;align-items:center;justify-content:space-between;padding:0 2px 11px}
+.page-nav-heading h2{margin:0}.page-nav-heading span{color:#667387;font-size:11px;font-weight:700}
+.page-nav-list{min-height:0;flex:1;overflow-y:auto;padding:2px 4px 10px 2px;scrollbar-gutter:stable}
+.pages-v2 .page-preview-button{position:relative;width:100%;min-height:0;margin:0 0 14px;padding:10px 8px 8px;border:1px solid #cfd8e5;border-radius:9px;background:#e9eef4;display:flex;flex-direction:column;align-items:center;gap:7px;overflow:hidden;text-align:left}
+.pages-v2 .page-preview-button:hover{border-color:#78aef0;background:#f0f6fd}
+.pages-v2 .page-preview-button.active{border:2px solid #0878f9;padding:9px 7px 7px;background:#f7fbff;box-shadow:0 0 0 3px rgb(8 120 249 / 12%)}
+.page-preview-canvas{width:100%;min-height:190px;padding:9px;border-radius:5px;background:#dfe6ee;display:grid;place-items:center;overflow:hidden}
+.page-index,.editing-badge{position:absolute;top:8px;z-index:2;min-width:24px;height:24px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 2px 7px rgb(6 29 53 / 20%);font-size:11px;font-weight:800}
+.page-index{left:8px;background:#fff;color:#061d35}.editing-badge{right:8px;padding:0 9px;background:#0878f9;color:#fff}
+.page-preview-label{width:100%;padding:0 3px;color:#334155;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;font-weight:700}
+.page-navigator-v2>.add-page-v2{flex:none;width:100%;min-height:43px;margin:2px 0 0;border:1px solid #bfcbd9;border-radius:7px;background:#fff;display:flex;align-items:center;justify-content:center;gap:7px;font-weight:700}
+.page-navigator-v2>.add-page-v2 svg{width:18px}
+@media(max-width:1300px){.editor-v2{grid-template-columns:250px 1fr 290px}}
+.dashboard-v2 .preview-v2{position:relative;padding:12px!important;background:#e4eaf1!important;display:grid!important;place-items:center;overflow:hidden}
+.dashboard-v2 .preview-v2 .thumb-viewport{box-shadow:0 4px 16px rgb(6 29 53 / 18%),0 0 0 1px rgb(6 29 53 / 8%)}
+.dashboard-preview-page-count{position:absolute;right:10px;bottom:10px;padding:5px 9px;border-radius:14px;background:rgb(6 29 53 / 88%);color:#fff;font-size:11px;font-weight:700;box-shadow:0 2px 8px rgb(6 29 53 / 24%)}
+.pdf-background-controls{margin-top:18px;padding-top:16px;border-top:1px solid #e0e6ee}
+.pdf-background-controls h3{margin-bottom:6px}.pdf-background-controls p{margin:0 0 10px}
+.inspector-v2 .pdf-background-controls button{width:100%;height:38px;margin-top:7px;border:1px solid #cfd8e5;background:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:7px;font-weight:700}
+.inspector-v2 .pdf-background-controls button svg{width:17px}.inspector-v2 .pdf-background-controls button.danger{color:#c93543;border-color:#efc8cc}
+.inspector-v2 .pdf-background-controls button.primary-clean{background:#0878f9;border-color:#0878f9;color:#fff}.inspector-v2 .pdf-background-controls button:disabled{opacity:.55;cursor:wait}
+.shape-tool-v2{position:relative}.shape-tool-v2>button{height:34px;border:0;background:#fff;display:flex;align-items:center;gap:6px}.shape-menu-v2{position:absolute;top:42px;left:0;width:150px;padding:7px;background:#fff;border:1px solid #cfd8e5;border-radius:8px;box-shadow:0 12px 30px rgb(6 29 53 / 20%);display:grid;gap:3px;z-index:50}.shape-menu-v2 button{justify-content:flex-start!important;border-radius:5px!important}.shape-menu-v2 button:hover{background:#eef5ff!important}.shape-icon{width:18px;height:14px;background:#1769e0;display:inline-block}.shape-icon.circle{width:16px;height:16px;border-radius:50%}.shape-icon.line{height:3px}.shape-icon.triangle{height:17px;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.subheading-v2{margin-top:16px!important}.text-align-v2{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.text-align-v2 button{height:36px;border:1px solid #d7dfe9;background:#fff;border-radius:5px;display:flex;align-items:center;justify-content:center;gap:3px;font-size:10px}.text-align-v2 button.active{color:#0878f9;border-color:#0878f9;background:#eef6ff}.text-align-v2 svg{width:14px}
+.pdf-background-controls small{display:block;margin-top:9px;color:#7a8596;font-size:10px;line-height:1.55}

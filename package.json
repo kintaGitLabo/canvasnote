@@ -1,0 +1,40 @@
+{
+  "name": "canvasnote",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "pdf-server": "node server/pdf-server.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "dompurify": "latest",
+    "express": "latest",
+    "html-to-image": "latest",
+    "idb": "latest",
+    "jspdf": "latest",
+    "lucide-react": "latest",
+    "pdfjs-dist": "^6.1.200",
+    "playwright": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tesseract.js": "^7.0.0",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/dompurify": "latest",
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "jsdom": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

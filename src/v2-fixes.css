@@ -1,0 +1,15 @@
+/* Interaction fixes kept separate so they override the legacy prototype styles. */
+.workspace-v2 .canvas-stage-v2 {
+  min-width: 100%;
+  min-height: 100%;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.workspace-v2 .canvas-element {
+  cursor: grab;
+  touch-action: none;
+}
+
+.workspace-v2 .canvas-element:active { cursor: grabbing; }
+.workspace-v2 .canvas-element.editing { cursor: text; }
